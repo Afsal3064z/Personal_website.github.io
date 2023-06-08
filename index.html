@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----ajax-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>My Porfolio</title>
+    <!---swiper css---->
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    
+</head>
+<body>
+    <!------ Header Design------->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Porfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <i class="bx bx-moon" id = darkMode-icon></i>
+        <div class="bx bx-menu" id = "menu-icon"></div>
+    </header>
+    <!--------  Home section design  ------>
+    <section class="home" id="home">
+        <div class="home-content">
+           <h3>Hello I am</h3>
+           <h1>Afsal A </h1>
+           <p>an enthusiastic and dedicated developer with expertise in flutter development 
+            , web development and UI/UX designing. I enjoy collaborating with teams to create intuitive solutions. 
+            I'm skilled in Drat , Html , css and java script and prioritize user experience. Let's connect and bring your ideas to life!</p>
+           <div class="social-media">
+           <a href="https://www.behance.net/afsalachu1"><i class='bx bxl-behance'></i></a>
+           <a href="http://t.me/Gladiator3064"><i class="bx bxl-telegram"></i></a>
+           <a href="https://instagram.com/afsal_here__?igshid=NGExMmI2YTkyZg=="><i class="bx bxl-instagram-alt"></i></a>
+           <a href="https://www.linkedin.com/in/afsal-a-09648b272"><i class="bx bxl-linkedin"></i></a>
+           </div>
+           <a href="https://docs.google.com/document/d/1JTeNf2Ys5Z_4f1C1so34KVEqXvol3YBSLaRfK0s0AuQ/edit?usp=sharing" class="btn">Download CV</a>
+
+        </div>
+          
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession"style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxl-flutter'></i>
+                    <h3>App Developer</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+           <img src="images/blobTwoAlt.png" alt="">
+        </div>
+    </section>
+   <!-----About Section----->
+   <section class="about" id="about">
+    <div class="about-img">
+
+        <img src="images/blobOne.png" alt="">
+        <!--The is a image-->
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About<span>Me</span></h2>
+        <h3>Hi, I'm Here to Help Your Next Project!</h3>
+        <p>As a Flutter developer, I leverage the power of Dart and the Flutter framework to build cross-platform mobile applications. I love the flexibility and efficiency that Flutter provides, allowing me to create high-quality apps that work seamlessly on both iOS and Android platforms.
+
+            In addition to mobile development, I have a solid background in web development. 
+            I'm proficient in HTML, CSS, and JavaScript.This expertise enables me to create responsive
+             and user-friendly websites that offer a delightful browsing experience across different devices.</p>
+            <a href="#" class="btn">Read More</a>
+    </div>
+   </section>
+   <!----- Servicee Section Design---->
+   <section class="services" id="services">
+
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Development</h3>
+            <p>Web development is the process of creating interactive and visually appealing websites. 
+                It involves front-end development, which focuses on user interfaces, 
+                and back-end development, which handles server-side functionality.
+                Full-stack developers have expertise in both. Using languages like HTML, CSS, JavaScript, and frameworks like React or Node.js.
+                  </p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bxl-flutter'></i>
+            <h3>Flutter Developer</h3>
+            <p>Flutter is a powerful and versatile open-source framework developed by Google for building native mobile applications. 
+                It allows developers to write code once and deploy it on multiple platforms, including iOS, Android, web, and even desktop.
+                 Flutter utilizes the Dart programming language, which provides a modern and efficient development environment.</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-palette'></i>
+            <h3>UI/UX Designer</h3>
+            <p>UI design focuses on the visual aspects of a product, including the layout, typography, colors, and overall aesthetics.
+                 UI designers aim to create visually appealing interfaces that are intuitive and engaging for users. 
+                 They utilize design principles and tools like Sketch, Adobe XD, or Figma to craft pixel-perfect designs 
+                 that align with the brand's identity.</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+        
+    </div>
+   </sections>
+  <!------Portfolio Section design----->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest<span>Projects</span></h2>
+    <div class="profolio-container">
+        <div class="portfolio-box">
+            <img src="images/netflix_clone.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Netflix Clone</h4>
+                <p>This is a simple clone website of netflix global which is static have no responsiveness and have the same apperence of the official website.
+                     </p>
+                    <a href="https://afsal3064z.github.io/netflix_clone.github.io/"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/lenskart.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Lens Kart clone</h4>
+                <p>This is a clone website of the lenskart offical india which is static have no responsiveness and have the same apperence of the offical website.
+                     </p>
+                    <a href="https://afsal3064z.github.io/lenskart_clone.github.io/"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/mechi_ui.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Mechi UI</h4>
+                <p>This is a simple UI design for Mechi which is a simple app for mechanical assistance for vechicles and spare parts.
+                     </p>
+                    <a href="https://www.behance.net/gallery/135591525/Mechi-ui-design-kit"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/demo_landingpage.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Simple Landing page</h4>
+                <p>This is simple  Figma landing page UI design for  visual demonstration.
+                     </p>
+                    <a href="https://www.figma.com/file/JUP1DN4FCpVWlLtiT90wnM/Untitled?type=design&node-id=0-1&t=Twtjjt5kyPHAezsj-0"><i class="bx bx-link-external"></i></a>
+            </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/kydu_ui.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Kydu UI</h4>
+                    <p>This is a Figma UI design for Kydu app whic is a simple start idea of mine.
+                         </p>
+                        <a href="https://www.figma.com/file/ZZFZJU2HkmFKGYfKn6MSWx/Kydu-ui?type=design&t=Twtjjt5kyPHAezsj-0"><i class="bx bx-link-external"></i></a>
+                </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/payment.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Payment demonstration</h4>
+                        <p>This is a simple landing page UI desigm for the demonstration of the a newly secure Payment method
+                             </p>
+                            <a href="https://www.figma.com/file/nWCAI10RV4oxyB1D3HgtVT/Untitled?type=design&t=WJDBgoetLv6pGXsS-0"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+                    
+    </div>
+  </section>
+  <!----Testimoinal design----->
+   <div class="testimonial-container">
+    <h2 class="heading">Test<span>monial</span></h2>
+    <div class="testimonial-wrapper">
+     <div class="testimonial-box mySwiper">
+        <div class="testimonial-content swiper-wrapper">
+        <div class="testimonial-slide swiper-slide">
+            <img src="images/photo_2023-06-06_18-21-52.jpg" alt="">
+            <h3>Alan Varghese</h3>
+            <p>"Working with you was an absolute pleasure. Their attention to detail, 
+                technical expertise, and ability to deliver beyond expectations were truly impressive. 
+                I highly recommend you for any web development project." </p>
+        </div>
+        <div class="testimonial-slide swiper-slide">
+            <img src="images/Gopika.jpg" alt="">
+            <h3>Gopika</h3>
+            <p>"I am incredibly grateful to have had the opportunity to collaborate with you on our website redesign. Your professionalism, 
+                creativity, and strong problem-solving skills made the entire process seamless. 
+                The end result exceeded our expectations, and we continue to receive compliments on the website's design and functionality."</p>
+        </div>
+        <div class="testimonial-slide swiper-slide">
+            <img src="images/rahul.jpg" alt="">
+            <h3>Rahul</h3>
+            <p>"Choosing you to build our e-commerce website was one of the best decisions we made. 
+                Your expertise in web development, user experience, and optimization helped us create a visually stunning and user-friendly online store. 
+                Our sales have significantly increased since the launch, and we couldn't be happier with the results."</p>
+        </div>
+        <div class="testimonial-slide swiper-slide">
+            <img src="images/arif.jpg" alt="">
+            <h3>Arif</h3>
+            <p>"I had the pleasure of working with you on a complex web application project.
+                 Your ability to understand our requirements, provide innovative solutions, 
+                 and deliver on time was exceptional. Your strong communication skills and collaborative approach made the entire development process a breeze."</p>
+        </div>
+        </div>
+        <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+     </div>
+    </div>
+   </div>
+   <!------contact section design------->
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form id="submit-form"method="post" action="" >
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" id="contact-name" required>
+            <input type="email" name="email" placeholder="Email Adress" id="contact-email" required>
+            <span id="email-error"></span>
+        </div>
+        <div class="input-box">
+            <input type="tel" name="phone number" placeholder="Moblie Number" id="contact-phone" required>
+            <span id="phone-error"></span>
+            <input type="text" name="message" placeholder="Email subject" id="contact-subject" required>
+            <span id="subject-error"></span>
+        </div>
+        <textarea name="" cols="30" rows="10" placeholder="Your Message"  id="contact-message"></textarea>
+        <span id="message-error"></span>
+        <p><span id="errorMessage"></span></p>
+        <p><span id="successMessage"></span></p>
+        <input type="submit" value="Send Message" class="btn" >
+        
+    </form>
+   </section>
+   <!------footer design----->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy 2023 by Afsal | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </footer>
+      <!---scroll reveal---->
+      <script src="https://unpkg.com/scrollreveal"></script>
+   <!------swiper js-------->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!------ Custom js ----->
+<script src="script.js"></script>
+</body>
+</html>
